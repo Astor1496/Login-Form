@@ -3,19 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gaming Skibidi</title>
+    <title>Login Form</title>
     <link rel="shortcut icon" type="x-icon" href="images/Google_Classroom_Logo.png">
     <link rel="stylesheet" href="style.css">
     <style>
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1 class="Title">
-            Login Form
-        </h1>
-        <div class="login-form">
-            <div class="input">
+  <div class="container">
+    <div class="content">
+      <h1 class="Title">
+        Login Form
+      </h1>
+      <div class="login-form">
+        <div class="input">
                 <p>Username</p>
                 <input class="Username-password" type="text" required>
             </div>
@@ -24,7 +25,7 @@
                 <input class="Username-password" type="password" required>
             </div>
         </div>
-        <button class="login-button">
+        <button onclick="openNewTab" class="login-button">
             Login
         </button>
         <div class="external-login">
@@ -32,9 +33,20 @@
 
             </div>
             <div class="external-services">
-                <img src="images/facebook-logo.png" alt="">
-                <img src="images/google-logo.png" alt="">
-            </div>
+                <p>
+                    Or log in with
+                </p>
+                <a href="https://www.facebook.com/login/" target="_blank">
+                    <img src="images/facebook-logo.png" alt="">
+                </a>
+                <a href="http://accounts.google.com/" target="_blank"> 
+                    <img src="images/google-logo.png" alt="">
+                  </a>
+                  <a href="https://github.com/login" target="_blank">
+                      <img src="images/github-logo.png" alt="">
+                  </a>
+              </div>
+          </div>
         </div>
     </div>
     <script src="script.js"></script>
