@@ -43,19 +43,38 @@ body{
     border-radius: 20px;
     font-size: 20px;
     line-height: 40px;
-    width: 375px;
+    width: 95.5%;
     background: rgb(206, 255, 253);
     border-width: 2px;
 }
 
 .login-button{
-    text-align: left;
-    align-items: left;
+    background: rgb(183, 255, 247);
+    border-style: solid;
+    width: 33.3%;
+    height: 10%;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-bottom: 10px;
 }
+
+.login-button:hover {
+    background: rgb(155, 240, 230);
+}
+
+.login-button
 
 .external-services, img{
     width: 40px;
     height: 40px;
     display: inline-block;
     text-align: none;
+    margin-top: 10px;
+}
+
+.external-services, p{
+    margin-top: 10px;
 }
